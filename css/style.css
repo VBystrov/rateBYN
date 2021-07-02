@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.main {
+  background-color: #f0f4ff;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+
+.rates {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-auto-rows: auto;
+  align-items: center;
+  width: 800px;
+  margin: auto;
+  border: 1px solid black;
+  background-color: black;
+  gap: 1px 1px;
+}
+
+.cell {
+  background-color: #f0f4ff;
+  padding: 5px;
+}
